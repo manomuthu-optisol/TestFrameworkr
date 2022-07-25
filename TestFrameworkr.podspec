@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/manomuthu-optisol/TestFrameworkr.git', :tag => '0.1.0' }
 spec.vendored_frameworks = 'TestFrameworkr.framework'
 
-spec.dependency 'TicketKit', '~> 1.0.0'
+spec.dependency 'Log4swift', '1.2.0'
 
 
   spec.swift_version    = "5.0"
