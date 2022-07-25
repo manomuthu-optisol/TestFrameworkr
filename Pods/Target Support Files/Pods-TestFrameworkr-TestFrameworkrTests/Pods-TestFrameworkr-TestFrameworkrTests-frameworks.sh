@@ -176,9 +176,11 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Log4swift/Log4swift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TicketKit/TicketKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Log4swift/Log4swift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TicketKit/TicketKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

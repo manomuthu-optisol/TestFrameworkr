@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-TestFrameworkr-TestFrameworkrTests/Pods-TestFrameworkr-TestFrameworkrTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Log4swift/Log4swift.framework
 ${BUILT_PRODUCTS_DIR}/TicketKit/TicketKit.framework

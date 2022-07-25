@@ -6,6 +6,8 @@ target 'TestFrameworkr' do
   use_frameworks!
 
 pod 'TicketKit', :git => 'https://github.com/tiskender2/TicketKit.git'
+pod 'Log4swift', '1.2.0'
+
 
 
   # Pods for TestFrameworkr

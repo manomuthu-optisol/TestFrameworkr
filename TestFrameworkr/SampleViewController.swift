@@ -7,6 +7,7 @@
 
 import UIKit
 import TicketKit
+import Log4swift
 
 public class SampleViewController: UIViewController {
     
@@ -20,6 +21,12 @@ public class SampleViewController: UIViewController {
     
     public func sample(){
         print("Hi there")
+        
+        let logger = Logger.getLogger("test.logger");
+        
+        logger.debug ("This message will go to the console");
+
+
     }
     /*
     // MARK: - Navigation

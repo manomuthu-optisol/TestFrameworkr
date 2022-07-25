@@ -1,8 +1,14 @@
 PODS:
+  - Log4swift (1.2.0)
   - TicketKit (1.0.0)
 
 DEPENDENCIES:
+  - Log4swift (= 1.2.0)
   - TicketKit (from `https://github.com/tiskender2/TicketKit.git`)
+
+SPEC REPOS:
+  trunk:
+    - Log4swift
 
 EXTERNAL SOURCES:
   TicketKit:
@@ -14,8 +20,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/tiskender2/TicketKit.git
 
 SPEC CHECKSUMS:
+  Log4swift: ee01d1eacc515d65b6facbe30b8e65b853140aa1
   TicketKit: 38047e7eac96e991173690df295a260580a9394b
 
-PODFILE CHECKSUM: 62c7030432cbf57659ff610dadad671695c2c890
+PODFILE CHECKSUM: fa4c21b74c72fac9e570b865c3b5da22e4c7f40d
 
 COCOAPODS: 1.11.2
