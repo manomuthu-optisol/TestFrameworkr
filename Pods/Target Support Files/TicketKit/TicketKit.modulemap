@@ -1,0 +1,6 @@
+framework module TicketKit {
+  umbrella header "TicketKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

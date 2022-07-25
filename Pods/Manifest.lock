@@ -1,0 +1,21 @@
+PODS:
+  - TicketKit (1.0.0)
+
+DEPENDENCIES:
+  - TicketKit (from `https://github.com/tiskender2/TicketKit.git`)
+
+EXTERNAL SOURCES:
+  TicketKit:
+    :git: https://github.com/tiskender2/TicketKit.git
+
+CHECKOUT OPTIONS:
+  TicketKit:
+    :commit: 24750a414c2c8967b608616c029ec45692b1510f
+    :git: https://github.com/tiskender2/TicketKit.git
+
+SPEC CHECKSUMS:
+  TicketKit: 38047e7eac96e991173690df295a260580a9394b
+
+PODFILE CHECKSUM: 62c7030432cbf57659ff610dadad671695c2c890
+
+COCOAPODS: 1.11.2
